@@ -1,13 +1,13 @@
 # Coroutine Web Sample
 
-###Running Locally
+### Running Locally
 - Install Dependencies `maven install`
 - Right click file in `mjc` directory -> `Run 'mjc.{fileName}'`
 
-###BasicCalculator.kt 
+### BasicCalculator.kt 
 A simple application that performs 3 basic tasks and returns the sum of their values using Coroutines 
 
-###AdvancedCalculator.kt
+### AdvancedCalculator.kt
 AdvancedCalculator.kt is another implementation of BasicCalculator.kt; however, it simulates querying a quicker cached database for the response of the calculations as well.
 - Runs as a web server via [Http4k](https://github.com/http4k/http4k)
 - Port: `8010`
